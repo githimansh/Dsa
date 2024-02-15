@@ -1,2 +1,18 @@
-package PACKAGE_NAME;public class Difference {
+
+import java.util.Scanner;
+public class Difference {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("enter 1st number");
+        int num_1 = sc.nextInt();
+
+        System.out.println("enter 2nd number");
+        int num_2 = sc.nextInt();
+
+        int difference = num_1 - num_2;
+
+        System.out.println("Difference:"  + difference);
+    }
 }
+
