@@ -13,7 +13,7 @@ public class ContnueKeyword {
     public static void main(String[] args) {
 
         for (int N = 1; N <= 100; N++) {
-            if (N % 3 == 0) {
+            if (N % 4 == 0) {
 //                break;
 //                continue;
             }
