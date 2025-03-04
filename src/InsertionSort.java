@@ -13,7 +13,7 @@ public class InsertionSort {
     }
 
     public static void main(String[] args) {
-        int a[] = { 8, 3, 6, 78, 2, 1};
+        int a[] = { 7, 8, 4, 68, 1, 9};
         insertionSort(a);
         for( int i = 0; i < a.length; i++) {
            System.out.print(a[i] + " ");
