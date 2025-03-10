@@ -2,7 +2,7 @@ package BinarySearch;
 
 public class BinarySearch1 {
     public static void main(String[] args) {
-        int[] arr = { -3, 2, 9, 12, 13, 19, 22, 25, 56, 87, 99};
+        int[] arr = { -3, 2, 9, 12, 13, 16, 19, 20 ,22, 24, 26, 28, 33, 45, 67};
         int target = 22;
          int ans = binarySearch(arr, target);
         System.out.println(ans);
