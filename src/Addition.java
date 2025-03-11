@@ -3,10 +3,10 @@ public class Addition {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("Enter 1st no");
+        System.out.println("Enter 1st number");
         int num_1 = sc.nextInt();
 
-        System.out.println("enter 2nd no");
+        System.out.println("enter 2nd number");
         int num_2 = sc.nextInt();
 
        System.out.println( "sum:" + (num_1 + num_2));
