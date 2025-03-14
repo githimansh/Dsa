@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class InsertionSort {
     public static void main(String[] args) {
-        int[] arr = {5, 4, 1, 2, 3};
+        int[] arr = {6, 10, 7, 9, 10};
         insertion(arr);
         System.out.println(Arrays.toString(arr));
     }
