@@ -1,6 +1,6 @@
 public class MoveZeroes {
     public static void main(String[] args) {
-        int arr[] = { 0, 1, 4, 0, 0, 56, 0};
+        int arr[] = { 0, 1, 4, 56, 0};
         int n = arr.length;
         for(int i = 0; i < n-1; i++){
             for( int j = 0; j < n-i-1; j++){
