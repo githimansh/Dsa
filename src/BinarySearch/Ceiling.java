@@ -2,8 +2,8 @@ package BinarySearch;
 
 public class Ceiling {
     public static void main(String[] args) {
-        int[] arr = {6, 7, 8, 10, 14, 16,18, 21, 22, 25, 28, 30};
-        int target = 20;
+        int[] arr = {6, 7, 8, 10, 14, 16,18};
+        int target = 15;
         int ans = ceiling(arr, target);
         System.out.println(ans);
     }
