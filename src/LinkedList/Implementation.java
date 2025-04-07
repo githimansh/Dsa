@@ -47,7 +47,7 @@ public class Implementation {
         }
          int getAt(int idx){
             if(idx < 0 || idx > size()){
-                System.out.println("Wrong Indez");
+                System.out.println("Wrong Index");
                 return -1;
             }
             Node temp = head;
