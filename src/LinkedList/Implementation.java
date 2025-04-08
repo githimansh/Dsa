@@ -77,10 +77,10 @@ public class Implementation {
 
     public static void main(String[] args) {
         linkedList ll = new linkedList();
-        ll.insertAtEnd(4);
-        ll.insertAtEnd(6);
-        ll.insertAtEnd(9);
         ll.insertAtEnd(8);
+        ll.insertAtEnd(3);
+        ll.insertAtEnd(9);
+        ll.insertAtEnd(6);
         ll.insertAtHead(13);
 //        ll.display();
         ll.insertAt(2, 15);
