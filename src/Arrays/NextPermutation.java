@@ -18,12 +18,14 @@ public class NextPermutation {
                break;
            }
        }
-       for(int i = n-1; i >=0 && index != -1; i--){
-           if(nums[i] > nums[index]){
-               int temp = nums[index];
-               nums[index] = nums[i];
-               nums[i] = temp;
-               break;
+       if(index != -1) {
+           for (int i = n - 1; i >= 0; i--) {
+               if (nums[i] > nums[index]) {
+                   int temp = nums[index];
+                   nums[index] = nums[i];
+                   nums[i] = temp;
+                   break;
+               }
            }
        }
        int left = index +1, right = n-1;
