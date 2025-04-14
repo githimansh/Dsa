@@ -3,7 +3,8 @@ package Arrays;
 public class Majority {
     public static void main(String[] args) {
    int[]nums = {3, 2, 3};
-
+      int ans = majorityElement(nums);
+        System.out.println(ans);
     }
     public static int majorityElement(int[] nums){
         int majority = nums[0];
