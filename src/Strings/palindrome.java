@@ -4,7 +4,7 @@ public class palindrome {
     public static void main(String[] args) {
 
 
-        String str = "abc";
+        String str = "abcdcba";
         int i = 0;
         int j = str.length() - 1;
         boolean flag = true;
