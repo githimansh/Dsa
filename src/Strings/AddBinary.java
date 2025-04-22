@@ -1,7 +1,6 @@
 package Strings;
 
 public class AddBinary {
-    class Solution {
         public String addBinary(String s1, String s2) {
             int i = s1.length() -1;
             int j = s2.length() -1;
@@ -32,4 +31,4 @@ public class AddBinary {
             return sb.reverse().toString();
         }
     }
-}
+
