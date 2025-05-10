@@ -2,7 +2,7 @@ package BinarySearch;
 
 public class SmallestDivisor {
     public static void main(String[] args) {
-  int[] nums = {1, 2, 5, 9};
+  int[] nums = {1, 2, 5, 9, 11, 23, 45};
     int threshold = 6;
      int ans = smallestDivisor(nums, threshold);
         System.out.println(ans);
